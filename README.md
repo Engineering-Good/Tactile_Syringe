@@ -1,41 +1,14 @@
-# T4G-Template
-<!--- delete this part after done. Start --->
-This is a GitHub repository intended to act as a template for an open source assistive technology device. It is meant to contain all design files, build files, and documentation for the project. More information about how to use the template is available in the [OpenAT_Template_Guide](https://github.com/makersmakingchange/OpenAT-Template/blob/main/OpenAT_Template_Guide.pdf). * working in progress for EG T4G Template Guide.
-<!--- TITLE --->
-<!--- Open Source Assistive Technology: GitHub Readme Template --->
-
-
-<!--- INSTRUCTIONS --->
-<!--- This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
-
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
-This template has a number of fields that can be searched and replaced with other text:
- - <Device_Name> Replace this with filename-friendly version of the device with underscores. e.g., T4G-Adapted-Recorder-Button
- - <DeviceName> Replace this with the human-readable name of the device with spaces. e.g., Adapted RecorderButton
- - <DesignerName> Replace this with the person or organization responsible for the design. e.g., John Doe.
- - <Repository_Link> Replace this with the web address for the repository. e.g., (e.g., https://github.com/Engineering-Good/T4G-Adapted-Recorder-Button))
- - <MaterialCost> Replace this with the dollar cost and currency (SGD, USD, etc.) of the materials of the device.
- - <ShippingCost> Replace this with the dollar cost and currency (SGD, USD, etc.) of shipping the device (if possible).
- - <YEAR> year(s) of the copyright 
- 
-Any text that is currently holding a space / is an instruction for the person filling in the README is in all capitals, to make it easier to see them in a rendered version.
---->
-<!--- delete this part after done. End --->
-
-# Overview
+# Tactile Syringe
 <!--- TITLE --->
 <!--- SUMMARY --->
-The is an assistive technology device that.
+This is an assistive technology device called the Tactile Syringe, designed to help persons with visual impairments measure and use a syringe independently.
 
-The device is comprised of off-the-shelf electronics and 3D printed parts.
+1. Tactile notches filed into the plunger rod mark set volume intervals, so the dose can be identified by feel rather than by reading the printed scale.
+2. As the plunger is drawn back, each notch passes the rim of the barrel, giving the user a physical reference point they can count by touch.
+3. Built from a standard, low-cost syringe, so it is inexpensive to make and easy to replace when the notches wear down. 
 
-The is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
 
-The overall cost of materials is about $ (excluding component shipping fee).
-
-The current version of the device (v1.0) has been built and user tested.
-<img src="photos/device-name.jpg" width="500" style="border-radius: 15px" alt="Picture of Template A Nice Main Device Name.">
+<img src="photos/Tactile Syringe.jpg" width="500" style="border-radius: 15px" alt="Picture of Template A Nice Main Device Name.">
 
 ## How to Obtain the Device
 
@@ -53,15 +26,15 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/documentation/Product_Manual_Template_Product_Name.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, and testing.
+The [Maker Guide](/documentation/Product_Manual_Tactile_Syringe.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, and testing.
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/documentation/Template_BOM.csv) lists all of the parts and components required to build the Template Device.
+The [Bill of Materials](/documentation/Tactile_Syringe_BOM.csv) lists all of the parts and components required to build the Template Device.
 
 ### 3. Assemble the Template Device
 
-Reference the Assembly Guide section of the [Maker Guide](/documentation/Product_Manual_Template_Product_Name.pdf) for the tools and steps required to build each portion.
+Reference the Assembly Guide section of the [Maker Guide](/documentation/Product_Manual_Tactile_Syringe.pdf) for the tools and steps required to build each portion.
 
 ## How to improve this Device
 
@@ -73,22 +46,11 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 
 | Document             | Version | Link |
 |----------------------|---------|------|
-| Maker Guide          | 1.0     | [Template_Maker_Guide](/documentation/Product_Manual_Template_Product_Name.pdf)     |
-| Bill of Materials    | 1.0     | [Template_Bill_of_Materials](/documentation/Template_BOM.csv)     |
-| User Guide           | 1.0     | [Template_User_Guide](/documentation/Product_Manual_Template_Product_Name.pdf)    |
-| Changelog            | 1.0     | [Template_Change_Log](/documentation/CHANGES.txt)     |
+| Maker Guide          | 1.0     | [Tactile_Syringe_Maker_Guide](/documentation/Product_Manual_Tactile_Syringe.pdf)     |
+| Bill of Materials    | 1.0     | [Tactile_Syringe_Bill_of_Materials](/documentation/Tactile_Syringe_BOM.csv)     |
+| User Guide           | 1.0     | [Tactile_Syringe_User_Guide](/documentation/Product_Manual_Tactile_Syringe.pdf)    |
+| Changelog            | 1.0     | [Tactile_Syringe_Change_Log](/documentation/CHANGES.txt)     |
 
-## Open Hardware Attribution
-
-The template was designed by.
-
-The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [MMC OpenAt Template](https://github.com/makersmakingchange/OpenAT-Template)
-
-The core design for this device/template is based on the some device/template, an open-source assistive technology project.
-- Original Designer: Makers Making Change (a program of Neil Squire).
-- Original Copyright:  Copyright (c) Neil Squire / Makers Making Change.
-- Original Source Location: The original project source files are available online at: 
-<https://github.com/makersmakingchange/OpenAT-Template>
 
 ## License
 
@@ -104,7 +66,7 @@ You may redistribute and modify this documentation and make products using it un
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-W v2 for applicable conditions.
 
-Source Location: <https://github.com/Engineering-Good/T4G-Template>
+Source Location: <https://github.com/Engineering-Good/Tactile_Syringe>
 
 
 ----
@@ -126,7 +88,7 @@ Source Location: <https://github.com/Engineering-Good/T4G-Template>
 
 For technical or non-techical questions, to get involved, or to share your experience we encourage you to 
 - Visit [our website](https://www.engineeringgood.org/)
-- Vontact us via [contact us form](https://www.engineeringgood.org/contact-faq/)
+- Contact us via [contact us form](https://www.engineeringgood.org/contact-faq/)
 - Email us at [contactus@engineeringgood.org](mailto:contactus@engineeringgood.org)
 - Volunteering Opportunities [working in progress](https://www.notion.so/engineeringgood/Volunteering-Opportunities-2025-ffa3d3ec8bb34ac7a672f5c10ee8177b)
 <!-- ABOUT EG END -->
